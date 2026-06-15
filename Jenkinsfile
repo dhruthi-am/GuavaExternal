@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	
 	tools{
-		mavne 'maven'
+		mavne 'Maven'
 	}
 	stages{
 		stage('Checkout'){
